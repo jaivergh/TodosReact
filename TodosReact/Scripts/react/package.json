@@ -1,0 +1,39 @@
+{
+	"name": "tutorial",
+	"version": "1.0.0",
+	"description": "react test",
+	"main": "index.js",
+	"scripts": {
+		"webpack": "webpack",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "camilo",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.18.0",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-router-dom": "^5.0.0",
+		"uuid": "^3.3.2"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-2": "^6.24.1",
+		"webpack": "^4.29.6",
+		"webpack-cli": "^3.3.0"
+	},
+	"babel": {
+		"presets": [
+			"env",
+			"react",
+			"stage-2"
+		],
+		"plugins": [
+			"transform-class-properties"
+		]
+	}
+}
